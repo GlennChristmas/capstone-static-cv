@@ -158,8 +158,20 @@
 .interest{
     background-color: black;
     margin: 10px;
-    border-radius: 30px;
     color: white;
     display: flex;
-    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.interest_image{
+    width: 75%;
+    height: 35%;
+}
+
+.interest_description{
+    color: white;
+    font-size: 2rem;
 }
