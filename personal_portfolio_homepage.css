@@ -139,3 +139,24 @@
     height: 100%;
     font-size: 1rem;
 }
+
+.interests_container{
+    display: grid;
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    grid-template-rows: 100px 600px;
+    grid-template-columns: 3fr 3fr 3fr;
+}
+
+.interest_title{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-size: 5rem;
+}
+
+.interest{
+    background-color: black;
+    margin: 10px;
+    border-radius: 30px;
+}
