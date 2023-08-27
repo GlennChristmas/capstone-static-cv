@@ -147,7 +147,7 @@
         margin-bottom: 50px;
         width: 100%;
         height: 100%;
-        grid-template-rows: 100px 600px;
+        grid-template-rows: 100px;
         grid-template-columns: 3fr 3fr 3fr;
     }
 }
@@ -211,18 +211,16 @@
     height: 100%;
 }
 
-
-@media(max-width: 900px){
-    .interest_image{
-        width:400px
-    }
-}
-
 .interest_headline{
     width:100%;
     height: 100%;
     color: white;
     font-size: 2rem;
+}
+
+.interest_body{
+    padding: 10px;
+    font-size: 1rem;
 }
 
 .footer_container{
