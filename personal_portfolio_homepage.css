@@ -140,14 +140,27 @@
     font-size: 1rem;
 }
 
-.interests_container{
-    display: grid;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: 100%;
-    height: 100%;
-    grid-template-rows: 100px 600px;
-    grid-template-columns: 3fr 3fr 3fr;
+@media(min-width: 701px){
+    .interests_container{
+        display: grid;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 100%;
+        height: 100%;
+        grid-template-rows: 100px 600px;
+        grid-template-columns: 3fr 3fr 3fr;
+    }
+}
+
+@media(max-width: 700px) {
+    .interests_container{
+        display: grid;
+        grid-template-rows: 2fr;
+        grid-template-columns: 1fr;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
 }
 
 .interest_title{
@@ -156,19 +169,43 @@
     font-size: 5rem;
 }
 
+@media(max-width: 700px){
+    .interest_title{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
 .interest{
     height: 100%;
     background-color: black;
     margin: 10px;
     color: white;
     display: grid;
-    grid-template-rows: 3fr 0.5fr 3fr;
+    grid-template-rows: 3fr 0.5fr 3fr
+}
 
+@media(max-width:700px){
+    .interest{
+        height: 600px;
+        display: grid;
+        grid-template-rows: 3fr 0.5fr 3fr;
+        color: white;
+        background-color: black;
+    }
 }
 
 .interest_image{
     width: 100%;
     height: 100%;
+}
+
+@media(max-width: 700px){
+    .interest_image{
+        width:400px
+    }
 }
 
 .interest_headline{
