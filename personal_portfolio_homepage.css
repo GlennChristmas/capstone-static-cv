@@ -198,7 +198,7 @@
 
 @media(max-width:900px){
     .interest{
-        height: 600px;
+        height: 800px;
         display: grid;
         grid-template-rows: 3fr 0.5fr 3fr;
         color: white;
