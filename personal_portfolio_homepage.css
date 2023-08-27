@@ -83,7 +83,7 @@
     margin-left: -10px;
     margin-right: 0px;
     padding-left: 10px;
-    font-size: 5rem;
+    font-size: 3rem;
     text-align: left;
 }
 
@@ -95,7 +95,7 @@
     margin-left: 0px;
     margin-right: -10px;
     padding-left: 10px;
-    font-size: 5rem;
+    font-size: 3rem;
     text-align: left;
 }
 
@@ -140,7 +140,7 @@
     font-size: 1rem;
 }
 
-@media(min-width: 701px){
+@media(min-width: 901px){
     .interests_container{
         display: grid;
         margin-top: 50px;
@@ -152,7 +152,7 @@
     }
 }
 
-@media(max-width: 700px) {
+@media(max-width: 900px) {
     .interests_container{
         display: grid;
         grid-template-rows: 2fr;
@@ -166,7 +166,16 @@
 .interest_title{
     grid-column-start: 1;
     grid-column-end: 4;
-    font-size: 5rem;
+    font-size: 3rem;
+}
+
+@media(max-width: 900px){
+    .interest_title{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        font-size: 3rem;
+        text-align: center;
+    }
 }
 
 @media(max-width: 700px){
@@ -187,7 +196,7 @@
     grid-template-rows: 3fr 0.5fr 3fr
 }
 
-@media(max-width:700px){
+@media(max-width:900px){
     .interest{
         height: 600px;
         display: grid;
@@ -202,7 +211,8 @@
     height: 100%;
 }
 
-@media(max-width: 700px){
+
+@media(max-width: 900px){
     .interest_image{
         width:400px
     }
