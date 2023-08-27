@@ -60,6 +60,10 @@
     font-family: 'Barlow', sans-serif;
 }
 
+.about_me > ul > li{
+    list-style-type: none;
+}
+
 .skills{
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -167,6 +171,7 @@
     grid-column-start: 1;
     grid-column-end: 4;
     font-size: 3rem;
+    font-family: 'Barlow', sans-serif;
 }
 
 @media(max-width: 900px){
