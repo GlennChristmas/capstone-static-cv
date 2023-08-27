@@ -197,4 +197,6 @@
 .footer_right{
     display:grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    text-align: right;
+    margin-right: 10px;
 }
